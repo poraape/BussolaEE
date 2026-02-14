@@ -1,0 +1,33 @@
+{
+  "app": {
+    "name": "Bússola",
+    "subtitle": "Consultor Digital E.E. Ermelino Matarazzo",
+    "badge": "Dados auditáveis"
+  },
+  "navigation": [
+    { "id": "dashboard", "label": "Dashboard", "icon": "🏠" },
+    { "id": "decisor", "label": "Decisor", "icon": "🧭" },
+    { "id": "rede", "label": "Rede", "icon": "🗺️" },
+    { "id": "busca", "label": "Busca", "icon": "🔎" }
+  ],
+  "categories": [
+    {
+      "id": "saude-mental",
+      "title": "Saúde mental",
+      "description": "Acolhimento e suporte emocional para situações de risco.",
+      "icon": "🧠"
+    },
+    {
+      "id": "violencia",
+      "title": "Violência",
+      "description": "Proteção imediata e acionamento de rede intersetorial.",
+      "icon": "⚠️"
+    },
+    {
+      "id": "vulnerabilidade",
+      "title": "Vulnerabilidade social",
+      "description": "Encaminhamento para assistência e permanência escolar.",
+      "icon": "🏠"
+    }
+  ]
+}

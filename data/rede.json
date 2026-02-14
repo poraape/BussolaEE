@@ -1,0 +1,68 @@
+[
+  {
+    "id": "samu",
+    "name": "SAMU",
+    "type": "Saúde",
+    "phone": "192",
+    "address": "Atendimento móvel de emergência",
+    "hours": "24h",
+    "notes": "Acionar em risco iminente à vida.",
+    "lat": -23.55052,
+    "lng": -46.633308
+  },
+  {
+    "id": "caps",
+    "name": "CAPS IJ",
+    "type": "Saúde",
+    "phone": "(11) 3294-3828",
+    "address": "Rua Antonio Bonici, 18",
+    "hours": "Seg-Sex 8h-17h",
+    "notes": "Acompanhamento em saúde mental infantojuvenil.",
+    "lat": -23.5404,
+    "lng": -46.6382
+  },
+  {
+    "id": "cras",
+    "name": "CRAS Ermelino",
+    "type": "Assistência",
+    "phone": "(11) 2545-3211",
+    "address": "Av. Paranaguá, 1492",
+    "hours": "Seg-Sex 8h-17h",
+    "notes": "Apoio socioassistencial e benefícios.",
+    "lat": -23.4934,
+    "lng": -46.4812
+  },
+  {
+    "id": "creas",
+    "name": "CREAS Ermelino",
+    "type": "Assistência",
+    "phone": "(11) 2545-3211",
+    "address": "Av. Paranaguá, 1492",
+    "hours": "Seg-Sex 8h-17h",
+    "notes": "Atendimento especializado para violações de direitos.",
+    "lat": -23.4942,
+    "lng": -46.4821
+  },
+  {
+    "id": "ct",
+    "name": "Conselho Tutelar",
+    "type": "Justiça",
+    "phone": "(11) 2545-5159",
+    "address": "Av. Milene Elias, 417",
+    "hours": "Plantão 24h",
+    "notes": "Proteção de crianças e adolescentes.",
+    "lat": -23.4883,
+    "lng": -46.4842
+  },
+  {
+    "id": "ddm",
+    "name": "4ª DDM",
+    "type": "Justiça",
+    "phone": "(11) 2041-3535",
+    "address": "Rua Dr. Corinto Baldoíno Costa, 400",
+    "hours": "24h",
+    "notes": "Delegacia de Defesa da Mulher.",
+    "lat": -23.5188,
+    "lng": -46.5414
+  }
+]

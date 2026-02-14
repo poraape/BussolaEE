@@ -1,0 +1,146 @@
+[
+  {
+    "id": "flow-sm-1",
+    "categoryId": "saude-mental",
+    "title": "Ideação suicida ativa",
+    "summary": "Aluno relata intenção imediata e acesso a meios.",
+    "riskLevel": "Urgência",
+    "ui": {
+      "progressTemplate": "Passo {current} de {total}",
+      "invalidOptionMessage": "Opção inválida para este passo.",
+      "completedMessage": "Fluxo concluído conforme protocolo."
+    },
+    "initialStepId": "sm1-step-1",
+    "steps": [
+      {
+        "id": "sm1-step-1",
+        "title": "A pessoa está sozinha?",
+        "text": "NUNCA deixar a pessoa sozinha durante risco agudo.",
+        "options": [
+          {
+            "id": "sm1-step-1-nao",
+            "label": "Não",
+            "nextStepId": "sm1-step-2",
+            "origin_ref": "flow-sm-1::A pessoa está sozinha?"
+          },
+          {
+            "id": "sm1-step-1-sim",
+            "label": "Sim",
+            "nextStepId": "sm1-step-2",
+            "origin_ref": "flow-sm-1::A pessoa está sozinha?"
+          }
+        ]
+      },
+      {
+        "id": "sm1-step-2",
+        "title": "Direção e SAMU foram acionados?",
+        "text": "Acionar direção e SAMU imediatamente diante de ideação suicida ativa.",
+        "options": [
+          {
+            "id": "sm1-step-2-sim",
+            "label": "Sim",
+            "nextStepId": "sm1-step-3",
+            "origin_ref": "flow-sm-1::Direção e SAMU foram acionados?"
+          },
+          {
+            "id": "sm1-step-2-nao",
+            "label": "Não",
+            "nextStepId": "sm1-step-3",
+            "origin_ref": "flow-sm-1::Direção e SAMU foram acionados?"
+          }
+        ]
+      },
+      {
+        "id": "sm1-step-3",
+        "title": "Família foi comunicada e registro iniciado?",
+        "text": "Contatar família e registrar ocorrência conforme protocolo institucional.",
+        "options": [
+          {
+            "id": "sm1-step-3-sim",
+            "label": "Sim",
+            "nextStepId": null,
+            "origin_ref": "flow-sm-1::Família foi comunicada e registro iniciado?"
+          },
+          {
+            "id": "sm1-step-3-nao",
+            "label": "Não",
+            "nextStepId": null,
+            "origin_ref": "flow-sm-1::Família foi comunicada e registro iniciado?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flow-vio-1",
+    "categoryId": "violencia",
+    "title": "Suspeita de violência física",
+    "summary": "Há sinais recentes de agressão no estudante.",
+    "riskLevel": "Alto",
+    "ui": {
+      "progressTemplate": "Passo {current} de {total}",
+      "invalidOptionMessage": "Opção inválida para este passo.",
+      "completedMessage": "Fluxo concluído conforme protocolo."
+    },
+    "initialStepId": "vio1-step-1",
+    "steps": [
+      {
+        "id": "vio1-step-1",
+        "title": "Segurança imediata foi garantida?",
+        "text": "Garantir segurança imediata do estudante e evitar exposição.",
+        "options": [
+          {
+            "id": "vio1-step-1-sim",
+            "label": "Sim",
+            "nextStepId": "vio1-step-2",
+            "origin_ref": "flow-vio-1::Segurança imediata foi garantida?"
+          },
+          {
+            "id": "vio1-step-1-nao",
+            "label": "Não",
+            "nextStepId": "vio1-step-2",
+            "origin_ref": "flow-vio-1::Segurança imediata foi garantida?"
+          }
+        ]
+      },
+      {
+        "id": "vio1-step-2",
+        "title": "Direção da unidade foi notificada?",
+        "text": "Notificar direção da unidade sem investigar por conta própria.",
+        "options": [
+          {
+            "id": "vio1-step-2-sim",
+            "label": "Sim",
+            "nextStepId": "vio1-step-3",
+            "origin_ref": "flow-vio-1::Direção da unidade foi notificada?"
+          },
+          {
+            "id": "vio1-step-2-nao",
+            "label": "Não",
+            "nextStepId": "vio1-step-3",
+            "origin_ref": "flow-vio-1::Direção da unidade foi notificada?"
+          }
+        ]
+      },
+      {
+        "id": "vio1-step-3",
+        "title": "Conselho Tutelar foi acionado?",
+        "text": "Acionar Conselho Tutelar para providências de proteção.",
+        "options": [
+          {
+            "id": "vio1-step-3-sim",
+            "label": "Sim",
+            "nextStepId": null,
+            "origin_ref": "flow-vio-1::Conselho Tutelar foi acionado?"
+          },
+          {
+            "id": "vio1-step-3-nao",
+            "label": "Não",
+            "nextStepId": null,
+            "origin_ref": "flow-vio-1::Conselho Tutelar foi acionado?"
+          }
+        ]
+      }
+    ]
+  }
+]
